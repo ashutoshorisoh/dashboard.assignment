@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card2 = ({ lgContent, xlContent, smContent, imageSrc }) => {
   return (
-    <div className="flex bg-white h-[132px] rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+    <div className="flex bg-white h-[160px] rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
       
       <div className="flex flex-col justify-between p-4 w-2/3">
         <div className="mb-2">
