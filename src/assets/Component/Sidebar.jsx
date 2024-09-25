@@ -4,7 +4,7 @@ import { LayoutDashboard, UserPlus, CalendarCheck, Users, Boxes, HandHelping, Se
 
 function Sidebar() {
   return (
-    <div className='lg:w-[242px] md:w-[40px] sm:md-[10px] lg:h-[900px] bg-blue-200 p-10 fixed top-0 h-full'>
+    <div className='lg:w-[242px] md:w-[40px] ipadpro:w-[20vw] sm:md-[10px] lg:h-[900px] ipadpro:h-full bg-blue-200 p-10 fixed top-0 h-full'>
       <div className='mb-10 flex justify-center'>
         <img
           src='https://cdn-icons-png.freepik.com/256/2801/2801829.png?semt=ais_hybrid'
