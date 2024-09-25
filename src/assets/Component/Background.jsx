@@ -41,7 +41,7 @@ function Background() {
         
         <div className='flex lg:flex-row ipadpro:flex-col flex-col mt-[-18px]'>
           <div className='flex lg:flex-row md:flex-row sm:flex-col w-[640px] ipadpro:w-[760px] surpro:w-[800px] flex-wrap gap-10 p-5'>
-            <div className='w-[28%] ipadpro:w-[29%]'>
+            <div className='w-[28%] ipadpro:w-[29%] '>
               <Card head={<span className='font-mono'>Available Position</span>} number={<span className='font-mono'>24</span>} below={<span className='font-mono'>4 people needed</span>} />
             </div>
             <div className='w-[28%] ipadpro:w-[29%]'>
@@ -52,10 +52,10 @@ function Background() {
             </div>
 
             <div className='flex justify-start w-[640px] ipadpro:w-[760px] surpro:w-[800px] gap-2 flex-wrap'>
-              <div className='w-[285px] surpro:w-[355px] ipadpro:w-[350px]'>
+              <div className='w-[285px] surpro:w-[355px] ipadpro:w-[350px] '>
                 <Card2 lgContent={<span className='font-mono'>Total Employees</span>} xlContent={<span className='font-mono'>216</span>} smContent={<span className='font-mono'>120 men 96 women</span>} imageSrc='https://atlas-content-cdn.pixelsquid.com/stock-images/arrow-graph-up-line-chart-vnZX8EB-600.jpg' />
               </div>
-              <div className='w-[285px] surpro:w-[355px] ipadpro:w-[350px]'>
+              <div className='w-[285px] surpro:w-[355px] ipadpro:w-[350px] '>
                 <Card2 lgContent={<span className='font-mono'>Total Requests</span>} xlContent={<span className='font-mono'>116</span>} smContent={<span className='font-mono'>80 men 36 women </span>} imageSrc='https://png.pngtree.com/png-vector/20220706/ourmid/pngtree-stats-business-graph-png-image_5705173.png' />
               </div>
             </div>
